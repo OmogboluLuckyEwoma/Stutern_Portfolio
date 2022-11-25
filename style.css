@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*html {
+    scroll-behavior: smooth;
+}*/
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:aqua;
+}
+
+a:hover {
+    color:white;
+}
+
+body {
+    background-color: rgb(236, 229, 229);
+}
+
+nav{ 
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color:rgb(16, 146, 197);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    color:rgb(238, 201, 37);
+}
+
+nav a {
+    color:rgb(238, 201, 37);
+    transition:0.4s;
+}
+
+nav a:hover {
+    color:rgb(24, 148, 193);
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.8rem;
+}
+
+nav ul li {
+    font-weight:bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.hero img {
+    height: 20.5rem;
+    width: 20.5rem;
+    padding-top:40px ;
+    border-radius: 60px;
+}
+
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+}
+.bio-title {
+    font-size: xx-large;
+}
+
+.bio h2 {
+    margin-bottom:0.5rem;
+}
+
+.bio p {
+    line-height:1rem;
+    padding: 0.3rem 0;
+}
+
+.button {
+    border-radius: 5px;
+    background-color:rgb(16, 146, 197);
+    color: rgb(238, 201, 37);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.button4:hover {background-color: #cecdc3;
+}
